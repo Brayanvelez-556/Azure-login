@@ -1,0 +1,66 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --ligth: #ffffff;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 300;
+  color: var(--ligth) !important;
+}
+
+.bg-dark {background-color: var(--dark) !important;}
+.bg-dark-x {background-color: var(--dark-x) !important}
+
+.form-text {
+    color: var(--ligth) !important;
+}
+
+input{
+    color: #ffffff !important; 
+}
+
+
+.bg-dar {
+    background-color: var(--dark) !important;
+}
+
+.logo-azure {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo-azure img{
+    height: 110px;
+    width: 110px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register-form {
+    background-color: var(--dark);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-style {
+    display: block;
+    color: #16191c;
+    font-weight: 900;
+}
